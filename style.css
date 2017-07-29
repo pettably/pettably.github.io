@@ -9,6 +9,7 @@ nav {
 
 a:hover, a:visited, a:link, a:active {
     text-decoration: none;
+	color : #000;
 }
 
 #main_nav {
@@ -32,12 +33,12 @@ a:hover, a:visited, a:link, a:active {
 
 #mobile_nav td {
 	margin-top: -5px;
-	padding: 10px 30px 10px 30px;
+	padding: 10px 0px 10px 0px;
 	font-size: 25px;
 }
 
 #mobile_nav a {
-	padding: 10px 0px 10px 0px;
+	padding: 10px 30px 10px 30px;
 }
 .dropdown-content {
 	display: none;
