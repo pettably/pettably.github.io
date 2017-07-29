@@ -54,7 +54,7 @@ a:hover, a:visited, a:link, a:active {
 	display: block;
 }
 
-#mobile_nav:focus .dropdown-content {
+#mobile_nav:active .dropdown-content {
 	display: block;
 }
 
