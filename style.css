@@ -26,37 +26,61 @@ a:hover, a:visited, a:link, a:active {
 	padding: 15px 50px 10px 50px;
 }
 
-#mobile_nav {
-	float: right;
-	display: none;
+/* dropdown menu */
+
+ul {
+    list-style-type: none;
+    margin: 0;
+    padding: 0;
+    overflow: hidden;
+    background-color: lightgray;
 }
 
-#mobile_nav td {
-	margin-top: -5px;
-	padding: 10px 30px 10px 0px;
-	font-size: 25px;
+li {
+    float: right;
+	margin-right: 48px;
 }
 
-#mobile_nav a {
-	padding: 10px 30px 10px 30px;
+li a, .dropbtn {
+    display: inline-block;
+    color: white;
+    text-align: center;
+    padding: 14px 16px;
+    text-decoration: none;
 }
 
-#dropbtn_menu {
-	padding: 0px 0px 0px 30px;
+li a:hover, .dropdown:hover .dropbtn {
+    background-color: darkgray;
+}
+
+li.dropdown {
+    display: none;
 }
 
 .dropdown-content {
-	display: none;
-	background-color: lightgray;
+    display: none;
+    position: absolute;
+    background-color: lightgray;
+    min-width: 120px;
+    box-shadow: 0px 8px 16px 0px rgba(0,0,0,0.2);
+    z-index: 1;
 }
 
-.dropdown-content td {
-	display: block;
+.dropdown-content a {
+    color: black;
+    padding: 12px 16px;
+    text-decoration: none;
+    display: block;
+    text-align: left;
 }
 
-#mobile_nav:active .dropdown-content {
-	display: block;
+.dropdown-content a:hover {background-color: darkgray}
+
+.dropdown:hover .dropdown-content {
+    display: block;
 }
+
+/* dropdown menu end */
 
 nav td:hover {
 	background-color: darkgrey;
@@ -181,9 +205,9 @@ span {
 	#main_nav td {
 		display: none;
 	}
-	#mobile_nav {
-		display: block;
-	}
+	li.dropdown {
+    display: inline-block;
+}
 	#head1,
 	#head2 {
 		padding-left: 10px;
