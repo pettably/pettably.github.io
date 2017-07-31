@@ -14,14 +14,12 @@ a:active {
 header {
 	background-image: url(images/foodprint-background.jpg);
 	max-width: 100%;
-	min-height: 500px;
-	max-height: 500px;
+	min-height: 550px;
+	max-height: 550px;
 }
 
 #head1 {
-	font-size: 60px;
-	font-weight: 600;
-	padding: 150px 0px 0px 70px;
+	padding: 50px 0px 0px 70px;
 	opacity: 0;
 	animation: fadein 2s;
 	animation-delay: 0.5s;
@@ -30,7 +28,7 @@ header {
 
 #head2 {
 	font-size: 30px;
-	padding: 20px 0px 0px 70px;
+	padding: 0px 0px 0px 70px;
 	opacity: 0;
 	animation: fadein 2s;
 	animation-delay: 1s;
@@ -134,9 +132,16 @@ span {
 }
 
 @media (max-width: 500px) {
+	header {
+	min-height: 500px;
+	max-height: 500px;
+}
 	#head1,
 	#head2 {
 		padding-left: 10px;
+	}
+	#logo {
+		width: 80%;
 	}
 	#products {
 		height: auto;
