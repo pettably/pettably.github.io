@@ -54,8 +54,10 @@ header {
 #banner {
 	height: 150px;
 	text-align: center;
-	padding-top: 45px;
+	padding-top: 65px;
 	padding-bottom: 45px;
+	padding-left: 10px;
+	padding-right: 10px;
 	font-size: 25px;
 	background-color: lightgrey;
 }
@@ -102,7 +104,7 @@ span {
 }
 
 .left button:hover {
-	background-color: grey;
+	background-color: gray;
 	cursor: pointer;
 }
 
@@ -169,21 +171,21 @@ span {
 
 .topnav {
   overflow: hidden;
-  background-color: #333;
+  background-color: lightgray;
 }
 
 .topnav a {
   float: left;
   display: block;
-  color: #f2f2f2;
+  color: black;
   text-align: center;
   padding: 14px 16px;
   text-decoration: none;
-  font-size: 17px;
+  font-size: 20px;
 }
 
 .topnav a:hover {
-  background-color: #ddd;
+  background-color: darkgray;
   color: black;
 }
 
