@@ -124,6 +124,7 @@ span {
 #contact table {
 	width: 100%;
 	background-color: lightgray;
+	padding-bottom: 30px;
 }
 
 #contact td {
