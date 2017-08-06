@@ -108,7 +108,7 @@ header {
 }
 
 #why-shop img {
-	height: 30%;
+	height: 75px;
 }
 
 #products {
@@ -211,6 +211,7 @@ span {
 
 	#why-shop img {
 	width: 30%;
+	height: auto;
 	}
 
 	#products {
