@@ -74,10 +74,53 @@ header {
 	cursor: pointer;
 }
 
+#summary {
+	font-size: 20px;
+}
+
+#summary table {
+	width: 80%;
+	margin-left: auto;
+	margin-right: auto;
+}
+
+
+#banner2 {
+	width: 100%;
+	background-color: lightgray;
+	text-align: center;
+	padding-top: 45px;
+	padding-bottom: 45px;
+	padding-left: 10px;
+	padding-right: 10px;
+	font-size: 25px;
+}
+
+#why-shop {
+	width: 80%;
+	margin-left: auto;
+	margin-right: auto;
+}
+
+#why-shop td {
+	width: 33%;
+	text-align: center;
+}
+
+#why-shop img {
+	height: 30%;
+}
+
 #products {
 	background-color: white;
 	min-height: height: 400px;
 	font-size: 20px;
+}
+
+#products table {
+	width: 80%;
+	margin-left: auto;
+	margin-right: auto;
 }
 
 .left {
@@ -110,19 +153,36 @@ span {
 	text-align: center;
 }
 
-.right {
+#right1 {
 	width: 50%;
 	background-image: url("images/grooming-glove.jpg");
 	background-size: contain;
 	background-repeat: no-repeat;
 	background-position: 50% 50%;
 	background-color: white;
+	margin-top: -40px
 }
 
-#contact table {
+#right2 {
+	width: 50%;
+	background-image: url("images/grooming-glove.jpg");
+	background-size: contain;
+	background-repeat: no-repeat;
+	background-position: 50% 50%;
+	background-color: white;
+	margin-top: -40px
+}
+
+#contact {
 	width: 100%;
 	background-color: lightgray;
 	padding-bottom: 30px;
+}
+
+#contact table {
+	width: 80%;
+	margin-left: auto;
+	margin-right: auto;
 }
 
 #contact td {
@@ -135,7 +195,7 @@ span {
 	header {
 	min-height: 500px;
 	max-height: 500px;
-}
+	}
 	#head1,
 	#head2 {
 		padding-left: 10px;
@@ -143,14 +203,30 @@ span {
 	#logo {
 		width: 80%;
 	}
+
+	#why-shop td {
+	width: 100%;
+	padding-bottom: 30px;
+}
+
+	#why-shop img {
+	width: 30%;
+	}
+
 	#products {
 		height: auto;
 		font-size: 17px;
 	}
-	.right {
+	#right1 {
 		width: 100%;
-		height: 300px;
+		height: 200px;
 	}
+
+	#right2 {
+		width: 100%;
+		height: 200px;
+	}
+
 	.left {
 		width: 90%;
 		padding-top: 40px;
