@@ -190,6 +190,12 @@ span {
 	text-align: center;
 }
 
+#contact a {
+	padding-right: 5px;
+	padding-left: 5px;
+	text-decoration: underline;
+}
+
 @media (max-width: 500px) {
 	header {
 	min-height: 500px;
