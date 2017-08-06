@@ -60,7 +60,7 @@ header {
 	background-color: lightgrey;
 }
 
-#banner button {
+#banner a {
 	background-color: darkgrey;
 	padding: 10px 24px;
 	border: none;
@@ -69,7 +69,7 @@ header {
 	margin-top: 20px;
 }
 
-#banner button:hover {
+#banner a:hover {
 	background-color: gray;
 	cursor: pointer;
 }
@@ -107,6 +107,7 @@ header {
 
 #why-shop img {
 	height: 75px;
+	padding-bottom: 50px;
 }
 
 #products {
@@ -210,6 +211,7 @@ span {
 	#why-shop img {
 	width: 30%;
 	height: auto;
+	padding-bottom: 0px;
 	}
 
 	#products {
