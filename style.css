@@ -122,6 +122,20 @@ header {
 	margin-right: auto;
 }
 
+#buy-button a {
+	background-color: darkgrey;
+	padding: 10px 24px;
+	border: none;
+	font-size: 20px;
+	margin-bottom: 0px;
+	margin-top: 20px;
+}
+
+#buy-button a:hover {
+	background-color: gray;
+	cursor: pointer;
+}
+
 .left {
 	width: 50%;
 	padding-top: 50px;
