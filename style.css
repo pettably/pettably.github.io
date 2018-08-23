@@ -46,30 +46,7 @@ header {
 	}
 }
 
-#banner {
-	height: 150px;
-	text-align: center;
-	padding-top: 65px;
-	padding-bottom: 65px;
-	padding-left: 20px;
-	padding-right: 20px;
-	font-size: 25px;
-	background-color: lightgrey;
-}
 
-#banner a {
-	background-color: darkgrey;
-	padding: 10px 24px;
-	border: none;
-	font-size: 20px;
-	margin-bottom: 0px;
-	margin-top: 20px;
-}
-
-#banner a:hover {
-	background-color: gray;
-	cursor: pointer;
-}
 
 #summary {
 	font-size: 20px;
@@ -209,16 +186,23 @@ span {
 
 @media (max-width: 500px) {
 	header {
-	min-height: 500px;
-	max-height: 500px;
+	min-height: 230px;
+	max-height: 230px;
 	}
-	#head1,
-	#head2 {
-		padding-left: 10px;
-	}
+
 	#logo {
-		width: 80%;
+		width: 90%;
+        height: 90%;
 	}
+
+    .left {
+        margin-left: -20px;
+    }
+
+
+    span {
+	font-size: 25px;
+}
 
 	#why-shop td {
 	width: 100%;
